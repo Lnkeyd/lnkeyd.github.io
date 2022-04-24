@@ -1,0 +1,33 @@
+$main-color: #D1E5E9
+$add-color: #A2224C
+$text-dark: #26000D
+
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Epilogue', sans-serif
+
+.home
+    &_container
+        margin-top: 20px
+        width: 100%
+        display: flex
+        justify-content: center
+        &_img
+            display: block
+            width: 51px
+            height: 58px
+            margin-right: 40px
+        &_menu
+            width: 960px
+            display: flex
+            justify-content: space-between
+            font-size: 36px
+            &_theory, &_training, &_instruments, &_blog, &_contacts
+                >a
+                    text-decoration: none
+                    color: $text-dark
+                >a:hover
+                    color: $add-color

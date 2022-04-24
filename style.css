@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.home_container {
+  margin-top: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home_container_img {
+  display: block;
+  width: 51px;
+  height: 58px;
+  margin-right: 40px;
+}
+
+.home_container_menu {
+  width: 960px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 36px;
+}
+
+.home_container_menu_theory > a, .home_container_menu_training > a, .home_container_menu_instruments > a, .home_container_menu_blog > a, .home_container_menu_contacts > a {
+  text-decoration: none;
+  color: #26000D;
+}
+
+.home_container_menu_theory > a:hover, .home_container_menu_training > a:hover, .home_container_menu_instruments > a:hover, .home_container_menu_blog > a:hover, .home_container_menu_contacts > a:hover {
+  color: #A2224C;
+}
+/*# sourceMappingURL=style.css.map */

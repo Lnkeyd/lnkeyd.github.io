@@ -1,0 +1,24 @@
+<model-viewer bounds="tight" src="scene.gltf" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" environment-image="music_hall_01_1k.hdr" camera-orbit="450.5deg 89.73deg auto">
+    <button class="Hotspot" slot="hotspot-2" data-position="0.7256944179534912m -0.8001367661433965m 2.1588381900582014m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">●Тремоло●
+
+            механическое устройство в виде рычага, дающее возможность изменения высоты тона с помощью движения этого рычага.</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.7256944179534912m 1.299138762704779m 3.312548973049266m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">●Дека●
+
+            корпус гитары выполнен из красного дерева, формы мягкие и округлые </div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.7885575678255137m 0.015034501181550475m 1.4024273516955383m" data-normal="0.7734652312019402m 0.28775581818413887m -0.564754924921338m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">●Хамбакер●
+
+            Звукосниматели такого типа обеспечивают плотность и мощность звучания инструмента</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
