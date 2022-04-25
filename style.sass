@@ -31,3 +31,21 @@ $text-dark: #26000D
                     color: $text-dark
                 >a:hover
                     color: $add-color
+
+@media screen and (max-width: 576px)
+    .flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+    .home
+        width: 100%
+        align-items: center
+        &_container
+            display: flex
+            flex-direction: column
+            align-items: center
+            &_img
+                margin-right: 0px
+            &_menu
+                flex-direction: column
+                align-items: center
